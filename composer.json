@@ -1,0 +1,29 @@
+{
+    "name": "brash-creative/laravel-type-collection",
+    "description": "Extension to Laravel Collections to allow for creation of collections of values that conform toa specified type",
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.6"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "~7.3"
+    },
+    "authors": [
+        {
+            "name": "Paul Crashley",
+            "email": "paulcrashley@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Brash\\TypeCollection\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brash\\TypeCollection\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}
