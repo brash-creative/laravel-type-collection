@@ -12,10 +12,11 @@
          bootstrap="./tests/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="Batch Event">
+        <testsuite name="Unit">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
+    
     <filter>
         <whitelist>
             <directory suffix=".php">./src</directory>
